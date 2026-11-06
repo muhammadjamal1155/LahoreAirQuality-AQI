@@ -36,7 +36,30 @@ The objective of this project is to build a structured analytical data warehouse
 - Cloud cover
 - Relationships between weather conditions and air pollution
 
-The final Gold layer is designed to support **Power BI dashboards and analytical reporting**.
+The final Gold layer supports **Power BI dashboards and analytical reporting**.
+
+---
+
+## 📊 Power BI Dashboard
+
+The Gold-layer views are connected to **Power BI** to explore Lahore's air-quality trends, seasonal smog patterns, and related weather conditions through an interactive dashboard.
+
+The dashboard is organized into three report pages:
+
+### 1. Alert Centre
+Highlights air-quality alerts and unhealthy pollution days, helping users identify periods that may require attention.
+
+![Lahore Air Quality - Alert Centre](Dashboard/Alert%20Centre.jpg)
+
+### 2. Seasonal Trends
+Explores changes in air quality over time and compares seasonal patterns, including Lahore's smog season.
+
+![Lahore Air Quality - Seasonal Trends](Dashboard/seasonal%20trend.jpg)
+
+### 3. Smog Cockpit
+Provides an analytical overview of pollution and weather indicators to support investigation of Lahore's smog conditions.
+
+![Lahore Air Quality - Smog Cockpit](Dashboard/smog%20Cocpit.jpg)
 
 ---
 
@@ -696,6 +719,11 @@ LahoreAirQuality_DW/
 │       ├── ddl_gold.sql
 │       └── quality_checks_gold.sql
 │
+├── Dashboard/
+│   ├── Alert Centre.jpg
+│   ├── seasonal trend.jpg
+│   └── smog Cocpit.jpg
+│
 ├── docs/
 │   └── architecture diagrams
 │
@@ -875,7 +903,7 @@ Confirm that:
 | Stored Procedures | Pipeline automation |
 | BULK INSERT | CSV ingestion |
 | SQL Views | Gold analytical layer |
-| Power BI | Intended reporting and visualization layer |
+| Power BI | Interactive dashboarding, KPI reporting, and trend analysis |
 
 ---
 
@@ -929,7 +957,7 @@ The warehouse can support questions such as:
 
 Possible future extensions include:
 
-- Power BI dashboard development
+- Publishing and sharing the Power BI dashboard
 - Automated pipeline scheduling
 - Incremental loading instead of full refreshes
 - Additional Lahore monitoring stations
