@@ -40,27 +40,6 @@ The final Gold layer supports **Power BI dashboards and analytical reporting**.
 
 ---
 
-## 📊 Power BI Dashboard
-
-The Gold-layer views are connected to **Power BI** to explore Lahore's air-quality trends, seasonal smog patterns, and related weather conditions through an interactive dashboard.
-
-The dashboard is organized into three report pages:
-
-### 1. Alert Centre
-Highlights air-quality alerts and unhealthy pollution days, helping users identify periods that may require attention.
-
-![Lahore Air Quality - Alert Centre](Dasboard/Alert%20Centre.jpg)
-
-### 2. Seasonal Trends
-Explores changes in air quality over time and compares seasonal patterns, including Lahore's smog season.
-
-![Lahore Air Quality - Seasonal Trends](Dasboard/seasonal%20trend.jpg)
-
-### 3. Smog Cockpit
-Provides an analytical overview of pollution and weather indicators to support investigation of Lahore's smog conditions.
-
-![Lahore Air Quality - Smog Cockpit](Dasboard/smog%20Cocpit.jpg)
-
 ---
 
 # 🏗️ Data Architecture
@@ -889,6 +868,29 @@ Confirm that:
 - Silver-to-Gold row counts match
 - Duplicate-grain checks return no unexpected records
 - Referential-integrity checks return `0` orphaned rows
+
+---
+
+## 📊 Power BI Dashboard
+
+The Gold-layer views are connected to **Power BI** to explore Lahore's air-quality trends, seasonal smog patterns, and related weather conditions through an interactive dashboard.
+
+The dashboard is organized into three report pages:
+
+### 1. Alert Centre
+Highlights air-quality alerts and unhealthy pollution days, helping users identify periods that may require attention.
+
+![Lahore Air Quality - Alert Centre](Dasboard/Alert%20Centre.jpg)
+
+### 2. Seasonal Trends
+Explores changes in air quality over time and compares seasonal patterns, including Lahore's smog season.
+
+![Lahore Air Quality - Seasonal Trends](Dasboard/seasonal%20trend.jpg)
+
+### 3. Smog Cockpit
+Provides an analytical overview of pollution and weather indicators to support investigation of Lahore's smog conditions.
+
+![Lahore Air Quality - Smog Cockpit](Dasboard/smog%20Cocpit.jpg)
 
 ---
 
